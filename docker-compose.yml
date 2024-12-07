@@ -1,8 +1,6 @@
-version: "3.3"
-
-services :
-    web :
-        build :
-            context :
-        ports :
-            8000:8000
+services:
+    web:
+        build:
+            context: 
+        ports:
+            - "8000:8000"
